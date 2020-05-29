@@ -30,3 +30,20 @@ a {
   color: #42b983;
 }
 </style>
+
+<style lang="scss">
+  #nav {
+    .btn {
+      color: rgba($color: #fff, $alpha: .4);
+       &::before {
+        opacity: .4 !important;
+      }
+    }
+  }
+  #nav a.router-link-exact-active {
+    color: rgba($color: #fff, $alpha: 1);
+    &::before {
+      opacity: 1 !important;
+    }
+  }
+</style>

@@ -6,6 +6,20 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'QVPN',
+  props: {
+    msg: String
+  },
+  data () {
+    return {
+      title: 'QVPN'
+    }
+  }
+}
+</script>
+
 <style scoped lang="scss">
 h3 {
   font-size: 30px;
